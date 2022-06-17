@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleMapSample", "GoogleMapSample\GoogleMapSample.csproj", "{DDF3E10D-A5DD-4548-8AFA-8543C24A353C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDF3E10D-A5DD-4548-8AFA-8543C24A353C}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{DDF3E10D-A5DD-4548-8AFA-8543C24A353C}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{DDF3E10D-A5DD-4548-8AFA-8543C24A353C}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{DDF3E10D-A5DD-4548-8AFA-8543C24A353C}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{DDF3E10D-A5DD-4548-8AFA-8543C24A353C}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{DDF3E10D-A5DD-4548-8AFA-8543C24A353C}.Debug|iPhone.Build.0 = Debug|iPhone
+		{DDF3E10D-A5DD-4548-8AFA-8543C24A353C}.Release|iPhone.ActiveCfg = Release|iPhone
+		{DDF3E10D-A5DD-4548-8AFA-8543C24A353C}.Release|iPhone.Build.0 = Release|iPhone
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BAA03E0-E4CF-4AE2-B64B-FD92CBB7C61D}
+	EndGlobalSection
+EndGlobal
