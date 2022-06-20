@@ -46,6 +46,43 @@ namespace GoogleMapSample.Views.GeoJson
             var camera = CameraPosition.FromCamera(cameraLatitude, cameraLongitude, 1);
             mapView = MapView.FromCamera(CGRect.Empty, camera);
             View = mapView;
+
+            mapView.OverlayTapped += MapView_OverlayTapped;
+            mapView.InfoTapped += MapView_InfoTapped;
+            mapView.MyLocationTapped += MapView_MyLocationTapped;
+            mapView.CoordinateTapped += MapView_CoordinateTapped;
+            mapView.PoiWithPlaceIdTapped += MapView_PoiWithPlaceIdTapped;
+            mapView.DraggingMarker += MapView_DraggingMarker;
+        }
+
+        private void MapView_DraggingMarker(object sender, GMSMarkerEventEventArgs e)
+        {
+
+        }
+
+        private void MapView_PoiWithPlaceIdTapped(object sender, GMSPoiWithPlaceIdEventEventArgs e)
+        {
+
+        }
+
+        private void MapView_CoordinateTapped(object sender, GMSCoordEventArgs e)
+        {
+
+        }
+
+        private void MapView_MyLocationTapped(object sender, GMSMyLocationTappedEventArgs e)
+        {
+
+        }
+
+        private void MapView_InfoTapped(object sender, GMSMarkerEventEventArgs e)
+        {
+
+        }
+
+        private void MapView_OverlayTapped(object sender, GMSOverlayEventEventArgs e)
+        {
+
         }
     }
 }
